@@ -56,7 +56,7 @@ Nếu AI chỉ tham gia ở bước coding thì chúng ta mới khai thác đư�
 ```
 BA Analyze
     ↓
-Context Collector
+Context Collector (Chưa áp dụng cho dự án)
     ↓
 Solution Design
     ↓
