@@ -1,0 +1,33 @@
+{
+  "project": {
+    "name": "My Project",
+    "shortName": "MyProject",
+    "package": "com.example.myproject",
+    "workspaceName": "MyProjectFeatureFactory",
+    "featureModule": "app"
+  },
+  "stack": {
+    "projectType": "android",
+    "language": "kotlin",
+    "architecture": "clean-architecture",
+    "uiFramework": "compose",
+    "diFramework": "hilt",
+    "minSdk": "24",
+    "targetSdk": "35",
+    "modules": ["app"],
+    "androidDevArtifact": "app/src/main/java"
+  },
+  "ticket": { "example": "PROJ-123" },
+  "commands": { "review": "aidlc-review" },
+  "models": {
+    "heavy": "claude-opus-4-8",
+    "mid": "claude-sonnet-5"
+  },
+  "frameworkTitles": {
+    "claude": "CLAUDE.md — My Project",
+    "cursor": "My Project — project rules",
+    "codex": "AGENTS.md — My Project",
+    "copilot": "GitHub Copilot — My Project"
+  },
+  "cursorRuleDescription": "My Project — project rules and AI-DLC pipeline (always on)"
+}
